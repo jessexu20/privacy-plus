@@ -17,7 +17,8 @@ def google():
                 if r.status_code == 200 :
 	            if 'items' in r.json():
 	                for person in r.json()['items']:
-		            fileW.write(person['id'].encode('utf-8') + "\t" + person['displayName'].encode('utf-8') + "\n")
+#		            fileW.write(person['id'].encode('utf-8') + "\t" + person['displayName'].encode('utf-8') + "\n")
+		            fileW.write(person['id'].encode('utf-8') + "\n")
                     else:
                         print r
 	    fileR.close()
