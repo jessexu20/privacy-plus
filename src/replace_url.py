@@ -11,6 +11,10 @@ def replace_url(inputFile,outputFile):
                         if arr[10].startswith('http', 0, 4):
                                 tmp = arr[10][:-6]
                                 wd.write(line.replace(arr[10],is_human(tmp)))
+                        else:
+                                wd.write(line.replace(arr[10],"false"))
+                else:
+                        wd.write(line.replace(arr[10],"false"))
         fd.close()
         wd.close()
 if __name__ == '__main__':
