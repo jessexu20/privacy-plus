@@ -7,7 +7,7 @@ def handle(inputFile,outputFile):
          if(len(arr)<8):
              continue
          if(arr[8]!="" and arr[8].find("male")!=-1):
-             wd.write(line+"\n")
+             wd.write(line)
      fd.closed
 if __name__ == '__main__':
     import sys
