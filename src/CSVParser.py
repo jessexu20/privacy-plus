@@ -18,11 +18,16 @@ def merge(inputFile,outputFile):
         'New York/ NY' : 'New York',
         'Chicago/ IL' : 'Chicago',
         'London/ England' : 'London',
+        'Paris/ France' : 'Paris',
+        'paris' : 'Paris',
+        'Tokyo/ Japan': 'Tokyo',
+        'tokyo': 'Tokyo',
         'Beijing/ China' : 'Beijing',
         'Shanghai/ China' : 'Shanghai',
         'Taipei/ Taiwan' : 'Taipei',
         'UCLA' : 'University of California/ Los Angeles',
         'UC Berkeley' : 'University of California/ Berkeley',
+        'University of Life' : 'Life'
 
     }
 
