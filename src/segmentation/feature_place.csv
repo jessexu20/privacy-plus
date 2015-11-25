@@ -1,4 +1,4 @@
-about_me,age_max,age_min,birthday,circledByCount,display_name,emails,first_name,gender,image_is_default,image_url,isPlusUser,language,last_name,occupation,org1,org2,org3,placeSan Francisco,place2,place3,relationship,skills,url,user_id,verified,country,exposureLevel
+about_me,age_max,age_min,birthday,circledByCount,display_name,emails,first_name,gender,image_is_default,image_url,isPlusUser,language,last_name,occupation,org1,org2,org3,place1,place2,place3,relationship,skills,url,user_id,verified,country,exposureLevel
  , , ,0000-05-18,14290,Jade Wang, ,Jade,female,FALSE,0,TRUE, ,Wang,4 Business Community Manager,2,4,Clever Sense,New York,Palo Alto/ CA,Oak Park/ CA, , ,https://plus.google.com/+JadeWang,1.16E+20,TRUE,ch,0.76
  , , , ,26691,Niniane Wang, ,Niniane,female,FALSE,1,TRUE, ,Wang,Software,Caltech,6,Minted,New York,Mountain View/ CA,Beijing, , ,https://plus.google.com/117935797319364093334,1.18E+20,FALSE,ch,0.72
  , , , , ,Weiben Wang, ,Weiben,male,FALSE,1,TRUE, ,Wang,Librarian,Cornell University,9,0 Public Library,New York,Ithaca/ NY,Ann Arbor/ MI, , ,https://plus.google.com/+WeibenWang,1.08E+20,FALSE,ch,0.68
