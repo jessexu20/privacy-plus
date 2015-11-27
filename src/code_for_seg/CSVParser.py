@@ -27,8 +27,8 @@ def merge(inputFile,outputFile):
         'Taipei/ Taiwan' : 'Taipei',
         'UCLA' : 'University of California/ Los Angeles',
         'UC Berkeley' : 'University of California/ Berkeley',
-        'University of Life' : 'Life'
-
+        'University of Life' : 'Life',
+        'Software Engineer': 'Software Developer'
     }
 
     #change the names of the input file and output file

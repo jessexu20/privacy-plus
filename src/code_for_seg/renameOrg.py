@@ -73,7 +73,7 @@ def merge(inputFile, outputFile):
             'Osaka University': '9'
         },
         # org1 in overall.csv
-        'overall.csv': {
+        'wh_overall_merged.csv': {
             'Life': '0',
             'University of California/ Berkeley': '1',
             'Stanford University': '2',

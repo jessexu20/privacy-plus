@@ -73,7 +73,7 @@ def merge(inputFile, outputFile):
             'Osaka': '9'
         },
         # place1 in overall.csv
-        'Toverall.csv': {
+        'Twh_overall_merged.csv': {
             'New York': '0',
             'San Francisco': '1',
             'Los Angeles': '2',
