@@ -65,7 +65,7 @@ def calculateTwo(inputFile):
                     for x in name_set:
                         name+=(' '+ x)
                     pb[name] +=1
-                    if(float (arr[27])>=0.74):
+                    if(float (arr[27])>=0.64):
                         pab[name]+=1
     fd.closed
     pro = {}
@@ -75,7 +75,7 @@ def calculateTwo(inputFile):
     import operator
     sorted_dic = sorted(pro.items(), key=operator.itemgetter(1))
     sorted_dic.reverse()
-    print sorted_dic
+    print sorted_dic,len(sorted_dic)
 if __name__ == '__main__':
     import sys
     calculateTwo(sys.argv[1])
