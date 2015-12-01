@@ -76,6 +76,51 @@ def calculateTwo(inputFile):
     sorted_dic = sorted(pro.items(), key=operator.itemgetter(1))
     sorted_dic.reverse()
     print sorted_dic,len(sorted_dic)
+def reverseCal(inputFile):
+    fd = open(inputFile, 'r')
+    title = fd.readline().split(',')
+    count = 0;
+    count2 = 0;
+    counter = []
+    counter_2 = []
+    for _ in range(26):
+        counter.append(0)
+        counter_2.append(0)
+    for line in fd:
+        arr = line.split(',')
+        # print arr[27]
+        if(len(arr)!=28):
+            continue
+        if(float (arr[27])>=0):
+            count+=1
+            for i in range(26):
+                if(arr[i]!=' '):
+                    counter[i]+=1
+        if(float (arr[27])>=0.64):
+            count2+=1
+            for i in range(26):
+                if(arr[i]!=' '):
+                    counter_2[i]+=1
+    dic = {}
+    for i in range(26):
+        counter[i] = (float)(float(counter[i])/count)
+    for i in range(26):
+        counter_2[i] = (float)(float(counter_2[i])/count2)
+    print counter
+    print counter_2
+    for i in range(len(counter)):
+        if(counter[i]==0):
+            counter[i] = 100
+        # dic[title[i]] = float((counter_2[i] - counter[i]))/counter[i]
+        dic[title[i]] = float(float(counter[i])/count)
+    # for i in range(len(title)):
+#         print i, title[i]
+    import operator
+    sorted_dic = sorted(dic.items(), key=operator.itemgetter(1))
+    sorted_dic.reverse()
+    print sorted_dic
+            
 if __name__ == '__main__':
     import sys
-    calculateTwo(sys.argv[1])
+    reverseCal(sys.argv[1])
+    # calculateTwo(sys.argv[1])
